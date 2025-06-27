@@ -1,0 +1,135 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  height: 500px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left-panel {
+  flex: 1;
+  background: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-panel h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.left-panel input {
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.left-panel button {
+  margin-top: 1rem;
+  padding: 0.6rem 2rem;
+  background: #ff4b2b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.left-panel button:hover {
+  background: #e03b1f;
+}
+
+.right-panel {
+  flex: 1;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-panel h1 {
+  margin-bottom: 1rem;
+}
+
+.right-panel p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+/* NEW NEWS PAGE STYLES */
+
+.app-container {
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.app-container h2 {
+  text-align: center;
+  color: red;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.result-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news-item {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+
+.news-item h3 {
+  font-size: 1.4rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.news-item a {
+  color: #ff4b2b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
