@@ -6,8 +6,8 @@
 
 ## 🌐 Live Demo
 
-👉 [Deployed Website](https://your-netlify-or-vercel-link.com)  
-_(Replace this with your actual deployment URL)_
+👉 [Deployed Website](https://loquacious-pasca-9324f7.netlify.app/)  
+
 
 ---
 
@@ -65,5 +65,5 @@ _
 
 ---
 
-## 📁 Project Structure
+
 
